@@ -1,0 +1,3 @@
+let myString = "Eleanor Roosevelt";
+let myRegex = /(Franklin D.|Eleanor)\sRoosevelt/i; // Change this line
+let result = myRegex.test(myString);
